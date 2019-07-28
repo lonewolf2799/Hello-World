@@ -1,14 +1,14 @@
-dick = {
+Dict= {
         'name' : 'harshit',
         'age'  :  20,
         'place': 'Delhi'
         }
         
         
-for i in dick.values():
+for i in Dict.values():
  print (i)        
  
-dick['brother'] = 'Vishal'
+Dict['brother'] = 'Vishal'
 
-for x in dick:
+for x in Dict:
  print (x) 
